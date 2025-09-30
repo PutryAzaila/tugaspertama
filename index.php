@@ -118,7 +118,6 @@ $socialMedia = [
             <p>Prodi Sistem Informasi</p>
         </div>
      </div>
-        
         <div class="social-media">
             <?php foreach($socialMedia as $social): ?>
                 <a href="<?php echo $social['url']; ?>" class="social-icon" target="_blank" title="<?php echo $social['name']; ?>">
@@ -126,6 +125,5 @@ $socialMedia = [
                 </a>
             <?php endforeach; ?>
         </div>
-    </div>
-</body>
+    </body>
 </html>
